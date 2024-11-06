@@ -1,5 +1,5 @@
 import Item from "./Item";
-import { ItemType } from "../types";
+import { ItemType } from "../types/listingTypes";
 
 type ComponentProps = {
   items: Array<ItemType>;

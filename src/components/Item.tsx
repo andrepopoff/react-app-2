@@ -21,7 +21,7 @@ export default function Item({ item }: ComponentProps) {
 
   function formattedPrice(currency, price) {
     if (CURRENCY_MAPPER[currency]) {
-      return `${currency}${price}`;
+      return `${CURRENCY_MAPPER[currency]}${price}`;
     }
     return `${price} ${currency}`;
   }
